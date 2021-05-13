@@ -109,6 +109,7 @@ def general_stats(df):
     raw_data = input('Would you like to a sample of the raw data? y or n \n').lower()
     if raw_data == 'y':
         rows= int(input('Ok, how may rows do you want to see? enter a number \n'))
+        pd.set_option('display.max_columns',400)
         print(df.head(rows))
     else:
         pass
