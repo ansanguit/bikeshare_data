@@ -11,11 +11,11 @@ The code will answer interesting questions about it by computing descriptive sta
 
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv |
+new_york_city.csv |
+washington.csv |
 
 ### Credits
 The current project has been created thanks to the database provided by *Udacity*, the helpful site *stackoverflow* and the comments of the reviewer to improve the code.
 
-Thank you for reading ![Alt](/thankyou.png "Thanks")
+Thank you for reading ![Alt](.gitignore/thankyou.png "Thanks")
