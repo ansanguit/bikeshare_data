@@ -16,6 +16,6 @@ new_york_city.csv |
 washington.csv |
 
 ### Credits
-The current project has been created thanks to the database provided by *Udacity*, the helpful site *stackoverflow* and the comments of the reviewer to improve the code.
+The current project has been created thanks to the database provided by *Udacity*, the helpful site [*stackoverflow*](https://stackoverflow.com/) and the comments of the reviewer to improve the code.
 
-Thank you for reading ![Alt](.gitignore/thankyou.png "Thanks")
+Thank you for reading ![Alt](thankyou.png "Thanks")
