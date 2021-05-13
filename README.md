@@ -1,12 +1,12 @@
 
 ### Date created
 13th of May 2021.
-
+:metal: :octocat:
 ### Project Title
-Bikeshare data
+*Bikeshare* data  
 
 ### Description
-The code allows the user to get information about the usage of a shared bicycle system in Chicago, New York and Washington.
+The code allows the user to get information about the usage of a shared bicycle system in _Chicago, New York and Washington_.
 The code will answer interesting questions about it by computing descriptive statistics.
 
 
@@ -16,4 +16,6 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-The current project has been created thanks to the database provided by Udacity, the helpful site stackoverflow and the comments of the reviewer to improve the code
+The current project has been created thanks to the database provided by *Udacity*, the helpful site *stackoverflow* and the comments of the reviewer to improve the code.
+
+Thank you for reading ![Alt](/thankyou.png "Thanks")
