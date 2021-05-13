@@ -246,8 +246,12 @@ def main():
         user_stats(df, city)
 
         restart = input('\nWould you like to restart? Enter y or n.\n')
-        if restart.lower() != 'y':
+        while restart not in ('y', 'n'):
+           restart = input("Sorry, that is not a valid option. Enter again y or n: ")
+        if restart.lower() == 'n':
             break
+
+
 
 
 if __name__ == "__main__":
