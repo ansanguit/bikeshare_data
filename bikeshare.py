@@ -114,6 +114,7 @@ def general_stats(df):
     raw_data = input('Would you like to a sample of the raw data? y or n \n').lower()
     if raw_data == 'y':
         rows= int(input('Ok, how may rows do you want to see? enter a number \n'))
+        pd.set_option('display.max_columns',400)
         print(df.head(rows))
     else:
         pass
@@ -246,8 +247,12 @@ def main():
         user_stats(df, city)
 
         restart = input('\nWould you like to restart? Enter y or n.\n')
-        if restart.lower() != 'y':
+        while restart not in ('y', 'n'):
+           restart = input("Sorry, that is not a valid option. Enter again y or n: ")
+        if restart.lower() == 'n':
             break
+
+
 
 
 if __name__ == "__main__":
